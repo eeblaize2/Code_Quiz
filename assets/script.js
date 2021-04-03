@@ -67,7 +67,7 @@ var question_array = [
 // The startGame function is called when the start button is clicked
 function startGame() {
 
-    timerCount = 20;
+    timerCount = 60;
     startTimer()
     qn = 0
     correct = 0;
