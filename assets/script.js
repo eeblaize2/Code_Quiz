@@ -35,6 +35,31 @@ var question_array = [
         question: "What group of animals is known as a 'flamboyance'?",
         answers: ["Owls", "Crows", "Flamingos", "Turkeys"],
         correct: 2
+    },
+    {
+        question: "What does Na stand for on the periodic table?",
+        answers: ["Iron", "Nickel", "Mercury", "Sodium"],
+        correct: 3
+    },
+    {
+        question: "In which ocean is the Bermuda Triangle located?",
+        answers: ["Atlantic", "Pacific","Indian","Artic"],
+        correct: 0
+    },
+    {
+        question: "What astrological sign's symbol is a crab?",
+        answers: ["Leo", "Cancer", "Capricorn","Aries"],
+        correct: 1
+    },
+    {
+        question: "How many hearts does an octopus have?",
+        answers: ["2", "1", "3", "0"],
+        correct: 2
+    },
+    {
+        question: "Which fast food restaurant is known for its Big Macs?",
+        answers: ["Burger King", "McDonald's", "Arby's", "Wendy's"],
+        correct: 1
     }
 
 ]
@@ -76,7 +101,7 @@ function checkAnswer(n) {
     incorrect_span.innerHTML = incorrect;
 
     qn++;
-    if (qn === 5) {
+    if (qn === 10) {
         // Stops execution of action at set interval
         clearInterval(timer);
         // Calls function to create and append image
